@@ -16,7 +16,7 @@ public class BeerController {
     public ResponseEntity<BeerDto> getBeerById(@PathVariable("beerId") UUID beerId) {
 
         //todo impl
-        return new ResponseEntity<>(//BeerDto.builder().build(),
+        return new ResponseEntity(//BeerDto.builder().build(),
                 HttpStatus.OK);
     }
 
