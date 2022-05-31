@@ -12,7 +12,7 @@ public class BeerLoader implements CommandLineRunner {
 
     private final BeerRepository beerRepository;
 
-    public BeerLoader(BeerRepository beerRepository) {
+    public BeerLoader( BeerRepository beerRepository) {
         this.beerRepository = beerRepository;
     }
 
